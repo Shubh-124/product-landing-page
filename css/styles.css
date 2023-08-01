@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Roboto:wght@300&display=swap');
+
+
+.bg {
+    margin: 5%;
+}
+
+#title {
+    /* background-color: #d3c3c5; */
+    background-color: #808080;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.row {
+    padding: 5% 0% 0% 5%;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'Roboto';
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.container {
+    padding: 2% 5% 2% 5%;
+}
+
+/* .rotateimg25 {
+    padding: 100px;
+    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
+/* -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    transform: rotate(25deg); */
+
+
+
+/* Navigation bar */
+.navbar-brand {
+    padding-right: 50%;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 1.2rem;
+}
+
+/* Buttons */
+.btn {
+    margin: 10% 2%;
+}
+
+/* Features Section */
+
+.container1 {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.icon1 {
+    color: #615b5a;
+    margin-bottom: 2%;
+}
+
+.icon2 {
+    color: #615b5a;
+    margin-bottom: 2%;
+}
+
+.icon3 {
+    color: #615b5a;
+    margin-bottom: 2%;
+}
+
+.icon1:hover {
+    color: #0000ff;
+}
+
+.icon2:hover {
+    color: #f3f707;
+}
+
+.icon3:hover {
+    color: #eb0f0f;
+}
+
+
+.fa:hover {
+    color: #ff4c68;
+}
+
+.title-image {
+    width: 30%;
+    /* padding: 10%; */
+    margin-top: -200px;
+    margin-bottom: 500px;
+    position: absolute;
+
+}
+
+#features {
+    text-align: center;
+
+}
+
+/* Testimonials Section */
+
+.testimonial-image {
+    border-radius: 50%;
+    width: 15%;
+    margin: 20px
+}
+
+#testimonials {
+    /* background-color: #d3c3c5; */
+    background-color: #808080;
+    padding: 7% 15%;
+    text-align: center;
+    color: #ffffff;
+}
+
+#press {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.press-image {
+    padding: 20px;
+    width: 15%;
+}
+
+/* Pricing Section */
+#pricing {
+    font-family: 'Roboto';
+    padding: 50px;
+    text-align: center;
+}
+
+.pricing-card {
+    padding: 10px;
+
+}
+
+#cta {
+    background-color: #808080;
+    text-align: center;
+    font-family: 'Roboto';
+    color: #ffffff;
+    padding: 50px;
+}
+
+.guarantee {
+    color: #008000;
+}
+
+.btn1 {
+    margin: 2% 2%;
+}
+
+#footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #808080;
+    color: #ffffff;
+}
+
+.social {
+    margin: 10px;
+}
+
+/* Making it mobile-responsive */
+@media (max-width:1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        margin-top: 0px;
+        margin-bottom: -30px;
+        width: 50%;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
